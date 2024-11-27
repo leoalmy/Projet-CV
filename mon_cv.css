@@ -16,7 +16,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f7f3e9;
-    height: 100vh;
+    min-height: 100vh;
 }
 @media (max-width: 1024px) {
     .pdf {
