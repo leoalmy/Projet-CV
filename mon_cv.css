@@ -2,10 +2,14 @@ h1,
 h3 {
     text-align: center;
 }
-
 .pdf{
     width: 55%;
     aspect-ratio: 16 / 9;
+}
+@media (max-width: 768px) {
+    .pdf {
+        display: none;
+    }
 }
 html,
 body {
