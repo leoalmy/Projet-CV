@@ -6,11 +6,6 @@ h3 {
     width: 55%;
     aspect-ratio: 16 / 9;
 }
-@media (max-width: 768px) {
-    .pdf {
-        display: none;
-    }
-}
 html,
 body {
     display: flex;
@@ -21,4 +16,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f7f3e9;
+    height: 100vh;
+}
+@media (max-width: 1024px) {
+    .pdf {
+        display: none;
+    }
 }
