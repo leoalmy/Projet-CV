@@ -4,3 +4,33 @@ body {
     padding: 0;
     background-color: #f7f3e9;
 }
+h1{
+    text-align: center;
+    line-height: 1.6;
+}
+a,
+p{
+    font-size: 18px;
+}
+img{
+    margin-right: 10px;
+}
+.container1 {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #e6f7ff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #e6f7ff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
