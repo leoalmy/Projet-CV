@@ -1,5 +1,8 @@
-h1,
+h1{
+    text-align: center;
+}
 h3 {
+    display: none;
     text-align: center;
 }
 .pdf{
@@ -18,8 +21,48 @@ body {
     background-color: #f7f3e9;
     min-height: 100vh;
 }
+.btn-retour {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-retour:hover {
+    background-color: #2980b9;
+}
+
+.btn-retour2 {
+    display: none;
+}
+
 @media (max-width: 1024px) {
+    h3 {
+        display: block;
+    }
     .pdf {
         display: none;
+    }
+    .btn-retour {
+        display: none;
+    }
+    .btn-retour2 {
+        display: block;
+        position: static;
+        top: 20px;
+        left: 20px;
+        padding: 10px 20px;
+        background-color: #3498db;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    
+    .btn-retour2:hover {
+        background-color: #2980b9;
     }
 }

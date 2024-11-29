@@ -12,7 +12,7 @@ body {
     padding: 20px;
     background-color: #e6f7ff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    height: 240px;
+    flex-grow: 1;
 }
 h1 {
     color: #333;
@@ -42,7 +42,9 @@ p {
     justify-content: center;
     align-items: center;
     }
+}
+@media (min-width: 1025px) {
     .container {
-        height: 335px;
+        max-height: 240px;
     }
 }

@@ -15,6 +15,12 @@ p{
 img{
     margin-right: 10px;
 }
+.container0 {
+    display: flex;
+    justify-content:left;
+    margin-right: 15px;
+    padding: 10px 20px;
+}
 .container1 {
     max-width: 800px;
     margin: 50px auto;
@@ -33,4 +39,19 @@ img{
     background-color: #e6f7ff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+}
+.btn-retour {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.btn-retour:hover {
+    background-color: #2980b9;
 }
